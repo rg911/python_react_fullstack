@@ -30,6 +30,10 @@ const config = {
             }
         ]
     },
+    node: {
+        dns: 'mock',
+        net: 'mock'
+        },
     plugins: [
         new ExtractTextPlugin('styles.css'),
     ]
